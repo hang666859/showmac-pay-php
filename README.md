@@ -2,18 +2,13 @@
 
 ShowMac 支付网关的 PHP 客户端。只依赖 `ext-curl` 与 `ext-json`，PHP 8.1+。
 
-> 源码仓库：https://github.com/hang666859/showmac-pay-php（已打 tag `v1.0.0`，Packagist 提交待办）。
->
-> 尚未上 Packagist 时，用 vcs 方式引入（已打 tag 后可直接要求稳定版）：
->
-> ```json
-> "repositories": [
->   { "type": "vcs", "url": "https://github.com/hang666859/showmac-pay-php" }
-> ],
-> "require": { "showmac/pay-sdk": "^1.0" }
-> ```
->
-> 上架后改为 `composer require showmac/pay-sdk`。
+```bash
+composer require showmac/pay-sdk
+```
+
+> 已发布到 Packagist：https://packagist.org/packages/showmac/pay-sdk
+> 源码仓库：https://github.com/hang666859/showmac-pay-php
+> 离线环境可用 vcs 方式引入同一仓库。
 
 ## 快速开始
 
