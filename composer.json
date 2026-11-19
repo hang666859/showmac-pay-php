@@ -1,0 +1,31 @@
+{
+    "name": "showmac/pay-sdk",
+    "description": "ShowMac 支付网关 PHP 客户端",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["showmac", "payment", "pay", "sdk"],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6 || ^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShowMac\\Pay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShowMac\\Pay\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
