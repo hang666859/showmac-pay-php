@@ -2,14 +2,16 @@
 
 ShowMac 支付网关的 PHP 客户端。只依赖 `ext-curl` 与 `ext-json`，PHP 8.1+。
 
-> 当前尚未发布到 Packagist。在本项目的 `composer.json` 里加 path 仓库即可引入：
+> 当前尚未发布到 Packagist。在本项目的 `composer.json` 里加 vcs 或 path 仓库即可引入：
 >
 > ```json
-> "repositories": [{ "type": "path", "url": "../sdk/php" }],
-> "require": { "showmac/pay-sdk": "*" }
+> "repositories": [
+>   { "type": "vcs", "url": "https://github.com/hang666859/showmac-pay-sdk" }
+> ]
 > ```
 >
-> 发布后安装命令为 `composer require showmac/pay-sdk`。
+> 若只想用 path 方式（本地目录）：`"repositories": [{ "type": "path", "url": "../sdk/php" }]`。
+> 发布到 Packagist 后安装命令为 `composer require showmac/pay-sdk`。
 
 ## 快速开始
 
